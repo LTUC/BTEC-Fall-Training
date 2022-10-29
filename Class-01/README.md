@@ -7,3 +7,4 @@
 ## Resources:
 - [Shell How](https://www.shell.how/)
 - [CLI Cheat Sheet](https://www.git-tower.com/blog/command-line-cheat-sheet/)
+- [Get Started with Leetcode](https://leetcode.com/problems/add-two-integers/)
