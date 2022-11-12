@@ -1,0 +1,37 @@
+p{
+    font-weight: bold;
+    width: 400px;
+    float: left;
+}
+img{
+    float: left;
+    width: 40%;
+    padding-right: 500px;
+}
+
+a{
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: rgb(176, 171, 171);
+    color:white;
+    text-decoration: none;
+}
+table{
+    width: 40%;
+    border-collapse: collapse;
+}
+th{
+    background-color: #C0C0C0;
+    border: 1px solid #333;
+    padding: 15px;
+}
+td{
+    border: 1px solid #333;
+    text-align: center;
+    padding: 20px;
+    font-weight: 400;
+}
+tr:nth-last-of-type(odd){
+    background-color: #C0C0C0;
+}
