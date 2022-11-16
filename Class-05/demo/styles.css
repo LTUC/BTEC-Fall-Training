@@ -1,0 +1,34 @@
+body {
+    background-color: #F0EBCE;
+    color: #395144
+}
+
+
+h1 {
+    border: 2px red dotted;
+    /* padding-left: 50px !important;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding: 25px; */
+    /* margin-top: 50px; */
+    margin: 25px;
+    padding-left: 35%;
+    padding-right: 35%;
+    width: 25%;
+    /* text-align: center; */
+}
+
+#mainSection {
+    background-color: #AA8B56;
+}
+
+/* id => # */
+/* class => . */
+
+.done {
+    color: green;
+}
+
+.notdone {
+    color: red;
+}
