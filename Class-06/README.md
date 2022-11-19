@@ -5,4 +5,4 @@
 3. I solve problems:*-*
 - Average calculation
 - Even **and** Odd numbers
-- **Sorting Arrays**  
+- **Sorting Arrays**
