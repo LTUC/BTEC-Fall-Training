@@ -1,0 +1,37 @@
+/* color hunt */
+body{
+    background: #F0EBCE;
+    color: #395144;
+
+}
+
+h1{
+    border: 2px black dotted;
+    /* padding-left: 100px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 20px;
+    margin-top: 50px; */
+    margin: 25px;
+    padding-left: 40%;
+    padding-right: 40%;
+    width: 15%;
+    /* display: flex;
+    justify-content: center; */
+    /* text-align: center; */
+}
+
+/* id -> # */
+/* class -> . */
+
+#mainSection{
+    background: #AA8B56;
+}
+
+.done{
+    color: green;
+}
+
+.notDone{
+    color: red;
+}
