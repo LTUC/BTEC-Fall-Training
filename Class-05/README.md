@@ -1,3 +1,6 @@
+
+# SOlving Merge Conflict.
+
 # Class 05:
 
 ## Resources: 
