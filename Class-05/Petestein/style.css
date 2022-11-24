@@ -1,0 +1,45 @@
+body{
+    background-color: hotpink;
+    color: black;
+}
+h1{
+    border: 2px white solid;
+    padding-left: 10px;
+    margin: 15px;
+}
+h2{
+    border: 3px white dotted;
+    padding-top: 20px;
+}
+h3{
+    padding-bottom: 30px;
+}
+h4{
+    padding: 40px;
+}
+h5{
+    padding-left: 50%;
+    padding-right: 50%;
+    width: 20;
+}
+h6{
+    text-align: center;
+}
+#headersection{
+    background-color: rgb(255, 95, 202);
+}
+#mainsection{
+    background-color: rgb(255, 98, 203);
+}
+.greet{
+    color: rgb(10, 98, 175);
+}
+.greet1{
+    color: antiquewhite;
+}
+.status{
+    color: azure;
+}
+.status1{
+    color: beige;
+}
