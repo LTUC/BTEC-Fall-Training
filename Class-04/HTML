@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <style>
+    h2{
+      color: brown;
+    }
+  </style>
+    <header>
+  <h1 style="color: blue;">Our Home page</h1>
+</header>
+<nav>
+    <ul>
+        <li> Home</li>
+        <li> About</li>
+        <li>contact us</li>
+    </ul>
+</nav>
+<main>
+    <section>
+  <h2>learnung HTML</h2> 
+  <p>
+The HyperText Markup Language orHTML is the standard markup language for documents designed to be displayed in 
+a web browser.It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such 
+as JavaScript. </p>
+</section>
+<section>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
+    alt="HTML"  width="100" height="100" />
+</section>
+</main>
+<footer></footer>
+
+
+<a href="https://login.microsoftonline.com/a162c532-7a0c-4645-96fd-20d019cf4e5a/saml2?SAMLRequest=jdG9TsMwEADgHYl3iLwnjp2YJlZSqYKlUllaYGBBF8dpIzl28DmIx8dtVcTIdj866bu7ZrOEk93rz0VjSLZPLUGYjL%2fmHzkwDt3AIGdQcg4VqL7PVVf0uuxWhSLJm%2fY4OtsSnuUk2SIuemsxgA2xlHOeMpZy8cILyUpZ1tlKPIi6qt5JskHUPsTZR2dxmbQ%2faP81Kv2637XkFMKMklJnzWh1ZsKiMuUm2nNDzUwhoqlxx9HSM3d3jrLYI8n3ZCy2ZPFWOsARpYVJowxKHjbPOxmVcvYuOOUMWd%2ffJUlzMfv%2fDMJNTNY3n2Js4NWwSgWIPi0FE2klNKSsYHFRMdRQsCxoG%2b%2bBWefH4yngDEpflvmlN%2fSKiKCG%2fn3I%2bgc%3d&RelayState=
+%2fd2l%2fhome&sso_reload=true" target="_black"> click here </a>
+  <table>
+    <tr>
+        <th> Name</th>
+        <th>age</th>
+        <th>general</th>
+    </tr>
+
+    <tr> 
+        <td>tariq</td>
+        <td>32</td>
+        <td> male</td>
+    </tr>
+
+    <tr> 
+        <td>maya</td>
+        <td>20</td>
+        <td> female</td>
+    </tr>
+  </table>
+
+</body>
+</html>
