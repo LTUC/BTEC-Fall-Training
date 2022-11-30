@@ -20,10 +20,10 @@ function Drink(name, ingredients, imgurl, isCold, isHot) {
     this.isCold = isCold;
     this.isHot = isHot;
     this.price = 0;
-    allDriks.push(this);
-    // console.log(allDriks)
+    allDrinks.push(this);
+    // console.log(allDrinks)
 }
-let allDriks = [];
+let allDrinks = [];
 // this function to generate a random number
 function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
@@ -101,11 +101,11 @@ const turkish = new Drink('Turkish', ['coffee'], 'images/mocha.png', false, true
 // mocha.calculatePrice(3, 4);
 // mocha.renderDrinks();
 //            [0,       1,      2,      3  ];
-// allDriks = [espresso,latte,mocha,turkish];
+// allDrinks = [espresso,latte,mocha,turkish];
 
-for (let j = 0; j < allDriks.length; j++){
-    allDriks[j].calculatePrice(1, 5);
-    allDriks[j].renderDrinks();
+for (let j = 0; j < allDrinks.length; j++){
+    allDrinks[j].calculatePrice(1, 5);
+    allDrinks[j].renderDrinks();
 
 }
 
