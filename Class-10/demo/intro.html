@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       #box{
+         width: 200px;
+         height: 200px;
+         background: pink ;
+       }
+
+    </style>
+</head>
+<body>
+    <!-- inline events way-->
+    <section id="box" onclick="alert('heey there!!')" onmouseover="console.log('hello from betc students')"></section>
+    <button id="myBt"> TRY Me!!</button>
+
+    <script>
+    // addEventListener way
+        const bt = document.getElementById('myBt');
+        bt.addEventListener("click" , function(){
+            alert("hi from button ")
+            
+        })
+        bt.addEventListener("mouseover", handler)
+        function handler(){
+              bt.style.background = "blue"; 
+        }
+
+    </script>
+</body>
+</html>
