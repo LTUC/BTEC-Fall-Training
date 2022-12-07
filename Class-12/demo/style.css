@@ -1,0 +1,36 @@
+body>section {
+    background-color: tomato;
+    display: flex;
+    justify-content: space-around;
+}
+
+section section {
+    background-color: beige;
+    width: 20%;
+    height: 50px;
+}
+
+
+@media (600 <=width <=800px) {
+    body>section {
+        flex-direction: column;
+        align-items: center
+    }
+
+    section section {
+
+        background-color: black;
+    }
+}
+
+@media (320px <=width < 600px) {
+    section section {
+
+        background-color: red;
+    }
+
+    #section {
+        display: none; 
+        /* display: hidden */
+    }
+}
