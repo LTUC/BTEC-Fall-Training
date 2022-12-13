@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: burlywood;
+            /* background-image: url(https://media.istockphoto.com/id/1161301682/vector/cafe-coffee-white-background.jpg?s=612x612&w=is&k=20&c=orKYU-7LsVuK1bgZevqzp8Rq_6WbCFwKFIBxdn6yEVo=); */
+            /* background-repeat:no-repeat; */
+            text-align: center;
+        }
+
+        form {
+            width: fit-content;
+            height: fit-content;
+            border: 0.2ch solid black;
+            padding: 2%;
+            text-align: center;
+            margin-left: 35%;
+            margin-top: 5%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <h1> ASAC Coffee House</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Add new drink :</h2>
+            <form action="" id="drinkForm">
+                <label for="name">Name</label>
+                <input type="text" name="name">
+                <br>
+                <br>
+                <label for="ingredients">Ingredients : </label>
+                <input type="text" name="ingredients" placeholder="comma split ">
+
+                <br>
+                <br>
+                <label for="imgurl">Image Url</label>
+                <input type="text" name="imgurl">
+                <br>
+                <br>
+                <label for="">do you want your drink </label>
+                <label for="isCold">Cold </label>
+                <input type="checkbox" name="isCold">
+                <label for="isHot">Or Hot</label>
+                <input type="checkbox" name="isHot">
+                <br>
+                <br>
+                <input type="submit" value="Add">
+            </form>
+        </section>
+
+        <div id="drinks">
+            <h3> List of drinks :</h3>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
