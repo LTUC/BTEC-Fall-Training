@@ -97,4 +97,38 @@ function addNewDrink(event) {
     let newDrink = new Drink(name, ingredients, imgurl, isCold, isHot);
     newDrink.calculatePrice(1, 3);
     newDrink.renderDrinks();
+    saveToLocalStorage()
 }
+
+// local storage:
+// 1. where do I need to call this function
+// 2. allDrinks in an array, and setItem methos, takes a string 
+function saveToLocalStorage() {
+    const stringifiedArr = JSON.stringify(allDrinks)
+    console.log("DId the array converted to string?", stringifiedArr);
+    localStorage.setItem("Drinks", stringifiesArr)
+
+}
+
+// 1. where do I need to call this function? 
+// 2 . How to dispaly data I get from ls as drinks on my page
+// 3. convert dtring to array of objects
+// 4. loop through the array to render each object as a drink
+function getFromLocalStorage() {
+
+    let drinksStr = localStorage.getItem("Drinks")
+    const drinksArr = JSON.parse(drinksStr)
+    console.log(1111, drinksArr)
+    console.log(typeof drinksArr)
+    if (drinksArr !== null) {
+        for (let i = allDrinks.length; i < drinksArr.length; i++) {
+            const temp = new Drink(drinksArr[i].name, drinksArr[i].ingredients, drinksArr[i].imagePath, drinksArr[i].isCold, drinksArr[i].isHot)
+            temp.renderDrinks();
+        }
+    }
+
+    console.log(2222, allDrinks)
+}
+
+
+getFromLocalStorage();
